@@ -1,0 +1,41 @@
+body{
+  background-color: gray;
+  font-family: monospace;
+}
+h1{
+  color: white;
+  font-size: 3em;
+  font-family: "Old English Text";
+}
+.display{
+  width: 100%;
+  li {
+    display: inline-block;
+    text-decoration: none;
+    width: 20%;
+    height: 20em;
+    margin: 5% 1%;
+    overflow: hidden;
+    background-position: center;
+    border: .5em solid white;
+    &:hover {
+      p {
+        display: block;
+      }
+    }
+    h3 {
+      color: white;
+      text-shadow: 1px 1px 2px black;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 2em;
+    }
+    p {
+      color: white;
+      background-color: #434343;
+      display: none;
+      transition-duration: 2s;
+      vertical-align: bottom;
+    }
+  }
+}
