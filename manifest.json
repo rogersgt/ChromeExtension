@@ -7,15 +7,11 @@
 
   "browser_action": {
     "default_icon": "icon.png",
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_title": "NYT Most Popular Articles"
   },
   "permissions": [
     "activeTab",
-    "https://nytimes.com/"
-  ],
-  "browser_action": {
-  "default_icon": "icon.png",
-  "default_popup": "index.html",
-  "default_title": "NYT Most Popular Articles"
-}
+    "http://ajax.googleapis.com/"
+  ]
 }
