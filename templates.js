@@ -1,5 +1,6 @@
 var templates = {
-  article: ["<li style='background-image: url(<%= backgroundPic %>)'><h3><%= headline %></h3>",
-            "<br /><p><%= text %></p></li>"
+  article: ["<li style='background-image: url(<%= backgroundPic %>)'>",
+            "<a target='_blank' href='<%= redirect %>'<h3><%= headline %></h3></a>",
+            "<br /><p class='block'><%= text %></p></li>"
           ].join("")
 };
